@@ -6,13 +6,13 @@ logo_url: "http://joss.theoj.org/logo_large.png"
 url: "http://pjc.theoj.org"
 editor_email: ""
 noreply_email: "noreply@pjc.theoj.org"
-twitter: ""
+twitter: "JuliaConOrg"
 twitter_issn: ""
 google_analytics: ""
 github: "arfon/juliacon-proceedings"
-reviews: "openjournals/pjc-reviews"
+reviews: "JuliaCon/proceedings-review"
 papers_html_url: "https://www.theoj.org/pjc-papers"
-product: "software" # the *thing* being submitted for review
+product: "papers" # the *thing* being submitted for review
 reviewers: "https://bit.ly/joss-reviewers"
 submission_enquiry: |-
   **Project repository URL:** INSERT YOUR REPOSITORY LINK HERE
