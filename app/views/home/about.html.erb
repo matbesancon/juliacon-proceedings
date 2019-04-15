@@ -3,9 +3,11 @@
     <nav class="menu one-fourth column">
       <a class="menu-item selected" href="#about">About</a>
       <a class="menu-item" href="#code_of_conduct">Code of Conduct</a>
+      <a class="menu-item" href="#ethics">Ethics Guidelines</a>
       <a class="menu-item" href="#osi">Open Source Initiative</a>
       <a class="menu-item" href="#numfocus">NumFOCUS</a>
       <a class="menu-item" href="#author_guidelines">Author Guidelines</a>
+      <a class="menu-item" href="#editor_guidelines">Editor Guidelines</a>
       <a class="menu-item" href="#reviewer_guidelines">Reviewer Guidelines</a>
       <a class="menu-item" href="#editorial_board">Editorial Board</a>
       <a class="menu-item" href="#contacts">Contact JOSS</a>
@@ -34,6 +36,25 @@
         <p>Authors and reviewers will be required to confirm they have read our <%= link_to "code of conduct", "https://github.com/#{ setting(:github) }/blob/master/CODE_OF_CONDUCT.md", :target => "_blank" %>, and are expected to adhere to it in all <%= setting(:abbreviation) %> spaces and associated interactions.</p>
       </div>
 
+      <div class="main" id="ethics">
+        <h1>Ethics</h1>
+
+        <p>We also want to remind authors and reviewers (and anyone else) that we expect and require ethical behavior. Some examples are:
+          <ul>
+            <li>All authors are obliged to provide retractions or corrections of any mistakes of which they become aware.</li>
+            <li>Plagiarism (e.g., violation of another author's copyright), for both software and papers, is not allowed.</li>
+            <li>Self-plagiarism (repeated publication of the same work) is not allowed.</li>
+            <li>Author lists must be correct and complete. All listed authors must have made a contribution to the work, and all significant contributors should be included in the author list.</li>
+            <li>Reviews should be accurate and non-fraudulent. Examples of concerns are: Authors should not suggest reviewers who are not real people or have conflicts. Reviewers and editors must disclose conflicts. Bribes for authors, reviewers, editors are not permitted.</li>
+          </ul>
+        </p>
+
+        <p>Any potentially unethical behavior should be brought to the attention of the JOSS staff.
+           See <a href="#contacts">Contacting JOSS</a>.
+           The JOSS Editors will track any concerns and respond to the submitter with a resolution, which will range from doing nothing if the editors disagree about the issue to withdrawing papers and notifying authors' institutions.
+        </p>
+      </div>
+
       <%= render partial: "content/about/partnerships" %>
 
       <div class="main" id="author_guidelines">
@@ -42,6 +63,15 @@
         <div class="flash flash-warn flash-with-icon">
           <span class="octicon octicon-link-external"></span>
           NEW: Our documentation has moved to a <a href="https://joss.readthedocs.io/en/latest/submitting.html">dedicated documentation site &raquo;</a>. Improved guidelines for authors are available there.
+        </div>
+      </div>
+
+      <div class="main" id="editor_guidelines">
+        <h1>Editor Guidelines</h1>
+
+        <div class="flash flash-warn flash-with-icon">
+          <span class="octicon octicon-link-external"></span>
+          NEW: Our documentation has moved to a <a href="https://joss.readthedocs.io/en/latest/editing.html">dedicated documentation site &raquo;</a>. Improved guidelines for editors are available there.
         </div>
       </div>
 
@@ -80,11 +110,11 @@
             <li>To contact the JOSS staff, please <a href="mailto:admin@theoj.org">email us</a></li>
           </ul>
         </div>
-          
+
         <div class="main" id="costs">
           <h1>Cost and Sustainability Model</h1>
           <p><%= setting(:name) %> is an open access journal <em>committed to running at minimal costs, with zero publication fees (<a href="https://en.wikipedia.org/wiki/Article_processing_charge">article processing charges</a>) or subscription fees</em>.</p>
-          <p>Under the NumFOCUS nonprofit umbrella, <%= setting(:abbreviation) %> is now eligible to seek grants for sustaining its future. With an entirely volunteer team, <%= setting(:abbreviation) %> is seeking to sustain its operations via donations and grants, keeping its low cost of operation and free service for authors.</p>
+          <p>Under the NumFOCUS nonprofit umbrella as part of <a href="http://www.theoj.org">Open Journals</a>, <%= setting(:abbreviation) %> is eligible to seek grants for sustaining its future. With an entirely volunteer team, <%= setting(:abbreviation) %> is seeking to sustain its operations via donations and grants, keeping its low cost of operation and free service for authors.</p>
 
           <p>In the spirit of transparency, below is an outline of our current running costs:</p>
 
