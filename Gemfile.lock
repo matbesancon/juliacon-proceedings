@@ -270,6 +270,8 @@ GEM
     sawyer (0.7.0)
       addressable (>= 2.3.5, < 2.5)
       faraday (~> 0.8, < 0.10)
+    sentry-raven (2.9.0)
+      faraday (>= 0.7.6, < 1.0)
     signet (0.11.0)
       addressable (~> 2.3)
       faraday (~> 0.9)
@@ -345,6 +347,7 @@ DEPENDENCIES
   rspec-rails (~> 3.7.2)
   sanitize (~> 4.6.3)
   sass-rails (~> 5.0.7)
+  sentry-raven
   spring
   spring-commands-rspec
   uglifier (= 4.0.1)

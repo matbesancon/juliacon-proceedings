@@ -6,6 +6,10 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+Raven.configure do |config|
+  config.dsn = 'https://95ee7093e6234d4a9ad9e504b064d389:74d9080ceb154436ae03623786767112@sentry.io/1440556'
+end
+
 module Joss
   class Application < Rails::Application
     attr_accessor :settings
