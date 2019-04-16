@@ -2,7 +2,7 @@
 name: "JuliaCon Proceedings"
 abbreviation: "PJC"
 tagline: "proceedings for JuliaCon -- an open community conference."
-logo_url: "http://joss.theoj.org/logo_large.png"
+logo_url: "https://juliacon.org/2019/assets/img/logo.svg"
 url: "http://pjc.theoj.org"
 editor_email: "vchuravy@mit.edu"
 noreply_email: "noreply@pjc.theoj.org"
