@@ -1,10 +1,10 @@
 # Changing this file necessitates a server restart
 name: "JuliaCon Proceedings"
 abbreviation: "PJC"
-tagline: "a <strong>developer friendly</strong>, open access journal for research software packages."
+tagline: "proceedings for JuliaCon -- an open community conference."
 logo_url: "http://joss.theoj.org/logo_large.png"
 url: "http://pjc.theoj.org"
-editor_email: ""
+editor_email: "vchuravy@mit.edu"
 noreply_email: "noreply@pjc.theoj.org"
 twitter: "JuliaConOrg"
 twitter_issn: ""
