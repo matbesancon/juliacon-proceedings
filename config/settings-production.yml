@@ -1,6 +1,6 @@
 # Changing this file necessitates a server restart
 name: "JuliaCon Proceedings"
-abbreviation: "PJC"
+abbreviation: "jcon"
 tagline: "JuliaCon -- an open community conference."
 logo_url: "https://juliacon.org/2019/assets/img/logo.svg"
 url: "http://pjc.theoj.org"
