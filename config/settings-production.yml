@@ -18,4 +18,4 @@ submission_enquiry: |-
   **Project repository URL:** INSERT YOUR REPOSITORY LINK HERE
 
   Briefly describe your software, its research application and any questions you have about the PJC submission criteria.
-paper_types: []
+paper_types: ["full paper", "extended abstract"]
