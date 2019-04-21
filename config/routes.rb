@@ -31,12 +31,11 @@ Rails.application.routes.draw do
   get '/dashboard/*editor', :to => "home#reviews"
 
   post '/update_profile', :to => "home#update_profile"
-  get '/about', :to => 'home#about', :as => 'about'
+  get '/about' => redirect("https://proceeding.juliacon.org/about"), :as => :about
   get '/profile', :to => 'home#profile', :as => 'profile'
   get '/auth/:provider/callback', :to => 'sessions#create'
   get "/signout" => "sessions#destroy", :as => :signout
 
-  get '/blog' => redirect("http://blog.joss.theoj.org"), :as => :blog
   # API methods
   post '/papers/api_start_review', :to => 'dispatch#api_start_review'
   post '/papers/api_deposit', :to => 'dispatch#api_deposit'
